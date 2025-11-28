@@ -29,7 +29,7 @@ The model is **physics-regularized** with simple priors:
 ## 🖼 Phase 1 visual results
 **Accretion Disk Evolution: Ground Truth vs Predicted Frames (C1):**
 
-![Rollout(GT vs Pred)](results/rollout_toy.png)
+![Rollout(GT vs Pred)](results/rollout_toy_3.png)
 
 **Mass conservation over rollout (C1 model):**
 
