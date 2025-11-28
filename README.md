@@ -26,6 +26,16 @@ The model is **physics-regularized** with simple priors:
 - stable **radial profile** of the disk  
 - smooth **center-of-brightness (COM)** motion  
 
+## 🖼 Phase 1 visual results
+
+**Mass conservation over rollout (C1 model):**
+
+![Mass Rollout C1](results/mass_rollout.png)
+
+**Center-of-mass radius and angle over time:**
+
+![COM Rollout C1](results/com_rollout.png)
+
 The result is a **fast, differentiable surrogate** that can roll out the disk evolution for multiple time steps.
 
 ---
