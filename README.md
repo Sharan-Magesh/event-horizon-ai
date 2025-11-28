@@ -42,10 +42,11 @@ event-horizon-ai/
 ├─ scripts/
 │  ├─ train_synth_physics.py # Phase 1 training (C1 model)
 │  └─ eval_physics_metrics.py# mass + COM evaluation
-├─ figs/
-│  ├─ mass_rollout_c1.png    # mass vs time (GT vs prediction)
-│  ├─ com_rollout_c1.png     # COM radius & angle vs time
-│  └─ example_rollout_c1.png # sample rollout visualization
+├─ results/
+│  ├─ mass_rollout.png    # mass vs time (GT vs prediction)
+│  ├─ com_rollout.png     # COM radius & angle vs time
+│  └─ rollout_toy.png # sample rollout visualization
+|  └─ rollout_error_toy.png 
 ├─ data/                     # local data (ignored in git)
 ├─ checkpoints/              # trained weights (ignored)
 └─ logs/                     # training logs, raw plots (ignored)
